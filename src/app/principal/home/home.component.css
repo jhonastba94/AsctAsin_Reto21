@@ -1,0 +1,36 @@
+.imagen-fondo{
+    height: 100%;
+    background-image: url("https://www.citizensbank.com/assets/CB_resources/images/global/student-lending/2022-07_student-loans_Hero_DT_2560x770.jpg");
+    background-size: cover;
+    background-position: center;
+    }
+    
+    .fondo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(204, 198, 198, 0.568);
+    }
+    
+    .prod-text{
+    background-color: rgba(255, 255, 255, 0.532);
+    padding: 4rem;
+    width: 30%;
+    text-align: center;
+    color: white;
+    }
+    
+    .boton{
+    background-color: crimson;
+    color:white;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+    }

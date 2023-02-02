@@ -1,0 +1,31 @@
+<section class="container py-5 h-100">
+  <section class="row d-flex justify-content-center align-items-center h-100">
+    <section class="col-12 col-md-8 col-lg-6 col-xl-5">
+      <section class="card shadow-2-strong border-primary" style="border-radius: 1rem">
+        <section class="card-body p-5 text-center">
+          <h3 class="mb-5 text-primary">Iniciar sesión</h3>
+          <section class="form-outline mb-4">
+            <input class="form-control form-control-lg" placeholder="Usuario" type="text" #txtUser />
+          </section>
+          <section class="form-outline mb-4">
+            <input class="form-control form-control-lg" placeholder="Password" type="password" #txtPassword />
+          </section>
+          <section class="pt-1 mb-4">
+            <input class="btn btn-primary w-100 btn-lg" type="button" value="Login"
+              (click)="login(txtUser.value, txtPassword.value)" />
+          </section>
+          <p *ngIf="mensaje" class="alert alert-danger text-center">{{ mensaje }}</p>
+          <!-- <p *ngIf="resultado == true; then correct; else error">
+          </p>
+          <ng-template #correct>
+            <p style="color: green; font-weight: bold">{{ mensaje }}: {{usuario}}</p>
+          </ng-template>
+
+          <ng-template #error>
+            <p style="color: red; font-weight: bold">{{ mensaje }}</p>
+          </ng-template> -->
+        </section>
+      </section>
+    </section>
+  </section>
+</section>

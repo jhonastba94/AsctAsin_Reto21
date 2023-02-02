@@ -1,0 +1,36 @@
+.imagen-fondo{
+    height: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2018/02/27/17/41/frame-3186090_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    }
+    
+    .fondo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(204, 198, 198, 0.568);
+    }
+    
+    .prod-text{
+    background-color: #dfcdbfa9;
+    padding: 4rem;
+    width: 30%;
+    text-align: center;
+    color: white;
+    }
+    
+    .boton{
+    background-color: crimson;
+    color:white;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+    }
